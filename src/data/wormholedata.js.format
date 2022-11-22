@@ -1,0 +1,15 @@
+// Data format for wormholedata.js
+let data = [
+    {
+        'TypeID':       Integer,
+        'Name':         String,
+        'Origin':       String,
+        'Destination':  String,
+        'Target Class': Integer,
+        'Total Mass':   Number (kg),
+        'Mass Regeneration':   Number (kg),
+        'Jump Mass':   Number (kg),
+    }
+];
+
+export default data;

@@ -1,0 +1,131 @@
+.danger {
+    background-color: var(--danger-color) !important;
+    border: 0.1em solid !important;
+    border-radius: 0.5em !important;
+    border-color: var(--danger-border-color) !important;
+}
+
+.warn {
+    background-color: var(--warn-color) !important;
+    border: 0.1em solid !important;
+    border-radius: 0.5em !important;
+    border-color: var(--warn-border-color) !important;
+}
+
+.okay {
+    background-color: var(--okay-color) !important;
+    border: 0.1em solid !important;
+    border-radius: 0.5em !important;
+    border-color: var(--okay-border-color) !important;
+}
+
+.selectable {
+    background-color: var(--background-color);
+    border-color: var(--text-color);
+}
+
+.selectable:hover {
+    color: var(--text-color);
+    background-color: var(--component-color);
+    border-color: var(--text-color);
+}
+
+button.selectable {
+    cursor: pointer;
+}
+
+input.selectable {
+    cursor: text;
+}
+
+.input-locked {
+    border-color: var(--background-color);
+    background-color: var(--background-color);
+    cursor: default;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.calculator {
+    top: 0;
+    width:100%;
+    height: 100vh;
+    min-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--component-color);
+    width: 768px;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 768px;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    display: flex;
+    width: 20ch;
+    color: var(--text-color);
+    padding: 0.5em;
+    border: 0.1em solid;
+    border-radius: 0.5em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    width: 20ch;
+    padding: 0.5em;
+    border: 0.1em solid;
+    border-radius: 0.5em;
+}
+
+#start-bar:hover {
+    background-color: var(--okay-color-hover) !important;
+    cursor: pointer;
+}
+
+#glossary-spacer {
+    flex-grow: 1;
+}
+
+#copyright-notice {
+    flex-direction: column;
+    text-align: left;
+}

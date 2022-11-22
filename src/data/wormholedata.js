@@ -1,0 +1,118 @@
+// The data in this file are part of the EVE Online game data / "World Facts" and are intellectual property of CCP hf, made available under its third party development license
+// https://developers.eveonline.com/license-agreement
+//
+// See LICENSE.md for detailed copyright information
+
+// NOTE: This data is a copy from a spreadsheet original; It is stored in tab-separated string format to ease future mirroring.
+//       To update this data, copy the relevant columns and paste as a plain text string.
+const data_string = `TypeID\tName\tOrigin\tDestination\tTarget Class\tLifespan\tTotal Mass\tMass Regeneration\tJump Mass
+34439\tA009\tW-Space\tClass 13 (Shattered-frigate)\t13\t960\t3000000000.00\t3000000000.00\t5000000.00
+30678\tA239\tClass 2\tLowsec\t8\t1440\t2000000000.00\t0.00\t375000000.00
+30657\tA641\tHighsec\tHighsec\t7\t960\t2000000000.00\t0.00\t1000000000.00
+30685\tA982\tClass 3\tClass 6\t6\t1440\t3000000000.00\t0.00\t375000000.00
+30645\tB041\tHighsec\tClass 6\t6\t2880\t3000000000.00\t0.00\t1000000000.00
+30677\tB274\tClass 2\tHighsec\t7\t1440\t2000000000.00\t0.00\t375000000.00
+30647\tB449\tLowsec or Nullsec\tHighsec\t7\t960\t2000000000.00\t0.00\t1000000000.00
+30713\tB520\tClass 6\tHighsec\t7\t2880\t3000000000.00\t0.00\t1000000000.00
+35651\tB735\tK-Space "Unidentified Wormhole"\tBarbican - Drifter Wormhole\t15\t960\t750000000.00\t0.00\t375000000.00
+34138\tC008\tW-Space\tClass 5\t5\t960\t3000000000.00\t3000000000.00\t5000000.00
+30661\tC125\tClass 1\tClass 2\t2\t960\t1000000000.00\t0.00\t62000000.00
+30705\tC140\tClass 5 or Class 6\tLowsec\t8\t1440\t3300000000.00\t0.00\t2000000000.00
+30691\tC247\tClass 4\tClass 3\t3\t960\t2000000000.00\t0.00\t375000000.00
+30715\tC248\tClass 6\tNullsec\t9\t960\t3300000000.00\t0.00\t2000000000.00
+30714\tC391\tClass 6\tLowsec\t8\t2880\t3300000000.00\t0.00\t2000000000.00
+35653\tC414\tK-Space "Unidentified Wormhole"\tConflux - Drifter Wormhole\t17\t960\t750000000.00\t0.00\t375000000.00
+56026\tC729\tHighsec\tPochven\t675\t19440\t27000000000.00\t0.00\t11070000000.00
+30699\tD364\tClass 5\tClass 2\t2\t960\t1000000000.00\t0.00\t375000000.00
+30672\tD382\tClass 2\tClass 2\t2\t960\t2000000000.00\t0.00\t375000000.00
+30704\tD792\tClass 5\tHighsec\t7\t1440\t3000000000.00\t0.00\t1000000000.00
+30695\tD845\tClass 3\tHighsec\t7\t1440\t5000000000.00\t0.00\t375000000.00
+34134\tE004\tW-Space\tClass 1\t1\t960\t3000000000.00\t3000000000.00\t5000000.00
+30701\tE175\tClass 5\tClass 4\t4\t960\t2000000000.00\t0.00\t375000000.00
+30679\tE545\tClass 2\tNullsec\t9\t960\t2000000000.00\t0.00\t375000000.00
+34370\tE587\tThera\tNullsec\t9\t960\t3000000000.00\t0.00\t1000000000.00
+34372\tF135\tClass 2 or Class 3\tThera\t12\t960\t750000000.00\t0.00\t375000000.00
+56542\tF216\tClass 2 through 6\tPochven\t50\t1920\t2000000000.00\t0.00\t750000000.00
+34371\tF353\tClass 1\tThera\t12\t960\t100000000.00\t0.00\t62000000.00
+34139\tG008\tW-Space\tClass 6\t6\t960\t3000000000.00\t3000000000.00\t5000000.00
+30708\tG024\tClass 6\tClass 2\t2\t960\t2000000000.00\t0.00\t375000000.00
+30660\tH121\tClass 1\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+30702\tH296\tClass 5\tClass 5\t5\t1440\t3300000000.00\t0.00\t2000000000.00
+30693\tH900\tClass 4\tClass 5\t5\t1440\t3000000000.00\t0.00\t375000000.00
+30681\tI182\tClass 3\tClass 2\t2\t960\t2000000000.00\t0.00\t375000000.00
+30667\tJ244\tClass 1\tLowsec\t8\t1440\t1000000000.00\t0.00\t62000000.00
+30697\tK329\tClass 4\tNullsec\t9\t960\t5000000000.00\t0.00\t2000000000.00
+30688\tK346\tClass 3\tNullsec\t9\t960\t3000000000.00\t0.00\t375000000.00
+34135\tL005\tW-Space\tClass 2\t2\t960\t3000000000.00\t3000000000.00\t5000000.00
+34367\tL031\tNullsec\tThera\t12\t960\t3000000000.00\t0.00\t1000000000.00
+30709\tL477\tClass 6\tClass 3\t3\t960\t2000000000.00\t0.00\t375000000.00
+30664\tL614\tClass 1\tClass 5\t5\t1440\t1000000000.00\t0.00\t62000000.00
+34137\tM001\tW-Space\tClass 4\t4\t960\t3000000000.00\t3000000000.00\t5000000.00
+34366\tM164\tLowsec\tThera\t12\t960\t2000000000.00\t0.00\t1000000000.00
+30700\tM267\tClass 5\tClass 3\t3\t960\t1000000000.00\t0.00\t375000000.00
+30644\tM555\tHighsec\tClass 5\t5\t1440\t3000000000.00\t0.00\t1000000000.00
+30663\tM609\tClass 1\tClass 4\t4\t960\t1000000000.00\t0.00\t62000000.00
+30675\tN062\tClass 2\tClass 5\t5\t1440\t3000000000.00\t0.00\t375000000.00
+30666\tN110\tClass 1\tHighsec\t7\t1440\t1000000000.00\t0.00\t62000000.00
+30696\tN290\tClass 4\tLowsec\t8\t1440\t3300000000.00\t0.00\t2000000000.00
+30643\tN432\tLowsec or Nullsec\tClass 5\t5\t1440\t3300000000.00\t0.00\t2000000000.00
+30690\tN766\tClass 4\tClass 2\t2\t960\t2000000000.00\t0.00\t375000000.00
+30684\tN770\tClass 3\tClass 5\t5\t1440\t3000000000.00\t0.00\t375000000.00
+30648\tN944\tLowsec or Nullsec\tLowsec\t8\t1440\t3300000000.00\t0.00\t2000000000.00
+30682\tN968\tClass 3\tClass 3\t3\t960\t2000000000.00\t0.00\t375000000.00
+30642\tO128\tK-Space\tClass 4\t4\t1440\t1000000000.00\t0.00\t375000000.00
+30673\tO477\tClass 2\tClass 3\t3\t960\t2000000000.00\t0.00\t375000000.00
+30662\tO883\tClass 1\tClass 3\t3\t960\t1000000000.00\t0.00\t62000000.00
+30689\tP060\tClass 4\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+34140\tQ003\tW-Space\tNullsec\t9\t960\t3000000000.00\t3000000000.00\t5000000.00
+34368\tQ063\tThera\tHighsec\t7\t960\t500000000.00\t0.00\t62000000.00
+30707\tQ317\tClass 6\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+30658\tR051\tHighsec\tLowsec\t8\t960\t3000000000.00\t0.00\t1000000000.00
+56541\tR081\tPochven\tClass 4\t4\t960\t1000000000.00\t0.00\t375000000.00
+35654\tR259\tK-Space "Unidentified Wormhole"\tRedoubt - Drifter Wormhole\t18\t960\t750000000.00\t0.00\t375000000.00
+30676\tR474\tClass 2\tClass 6\t6\t1440\t3000000000.00\t0.00\t375000000.00
+30583\tR943\tK-Space\tClass 2\t2\t960\t750000000.00\t0.00\t375000000.00
+30686\tS047\tClass 4\tHighsec\t7\t1440\t3000000000.00\t0.00\t375000000.00
+30649\tS199\tLowsec or Nullsec\tNullsec\t9\t960\t3300000000.00\t0.00\t2000000000.00
+30665\tS804\tClass 1\tClass 6\t6\t1440\t1000000000.00\t0.00\t62000000.00
+35650\tS877\tK-Space "Unidentified Wormhole"\tSentinel - Drifter Wormhole\t14\t960\t750000000.00\t0.00\t375000000.00
+30683\tT405\tClass 3\tClass 4\t4\t960\t2000000000.00\t0.00\t375000000.00
+34338\tT458\tHighsec\tThera\t12\t960\t500000000.00\t0.00\t62000000.00
+30687\tU210\tClass 3\tLowsec\t8\t1440\t3000000000.00\t0.00\t375000000.00
+30646\tU319\tLowsec or Nullsec\tClass 6\t6\t2880\t3300000000.00\t0.00\t2000000000.00
+56544\tU372\tDrone Nullsec\tPochven\t25\t960\t1000000000.00\t0.00\t375000000.00
+30694\tU574\tClass 4\tClass 6\t6\t1440\t3000000000.00\t0.00\t375000000.00
+30659\tV283\tHighsec\tNullsec\t9\t960\t3000000000.00\t0.00\t1000000000.00
+30680\tV301\tClass 3\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+30703\tV753\tClass 5\tClass 6\t6\t1440\t3300000000.00\t0.00\t2000000000.00
+34369\tV898\tThera\tLowsec\t8\t960\t2000000000.00\t0.00\t1000000000.00
+30711\tV911\tClass 6\tClass 5\t5\t1440\t3300000000.00\t0.00\t2000000000.00
+35652\tV928\tK-Space "Unidentified Wormhole"\tVidette - Drifter Wormhole\t16\t960\t750000000.00\t0.00\t375000000.00
+30712\tW237\tClass 6\tClass 6\t6\t1440\t3300000000.00\t0.00\t2000000000.00
+56540\tX450\tPochven\tDrone Nullsec\t9\t960\t1000000000.00\t0.00\t375000000.00
+30584\tX702\tK-Space\tClass 3\t3\t1440\t1000000000.00\t0.00\t375000000.00
+30692\tX877\tClass 4\tClass 4\t4\t960\t2000000000.00\t0.00\t375000000.00
+30674\tY683\tClass 2\tClass 4\t4\t960\t2000000000.00\t0.00\t375000000.00
+30698\tY790\tClass 5\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+34136\tZ006\tW-Space\tClass 3\t3\t960\t3000000000.00\t3000000000.00\t5000000.00
+30668\tZ060\tClass 1\tNullsec\t9\t960\t1000000000.00\t0.00\t62000000.00
+30706\tZ142\tClass 6\tNullsec\t9\t960\t3300000000.00\t0.00\t2000000000.00
+30710\tZ457\tClass 6\tClass 4\t4\t960\t2000000000.00\t0.00\t375000000.00
+30671\tZ647\tClass 2\tClass 1\t1\t960\t500000000.00\t0.00\t62000000.00
+30579\tZ971\tK-Space\tClass 1\t1\t960\t100000000.00\t0.00\t62000000.00
+`
+
+let lines = data_string.split("\n");
+console.assert(lines.length > 0);
+let fields = lines[0].split("\t");
+let data = [];
+for (let i = 1; i < lines.length; i++) {    // Skip first line; It contains the fields
+    let object = {};
+    let values = lines[i].split("\t");
+    for (let j = 0; j < values.length; j++) {
+        object[fields[j]] = values[j];
+    }
+    data.push(object);
+}
+
+export default data;
